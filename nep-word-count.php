@@ -1,9 +1,8 @@
 <?php
 
-$basedir = "../input-files";
 
-$inputFile = fopen($basedir."/NEP.txt", "r") or die ("unable to open file");
-$outputFile = fopen($basedir."/NEP-Word-Cloud.txt", "w") or die ("unable to open file");
+$inputFile = fopen("NEP.txt", "r") or die ("unable to open file");
+$outputFile = fopen("NEP-Word-Cloud.txt", "w") or die ("unable to open file");
 
 $wordCount = array();
 
